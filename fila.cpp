@@ -7,9 +7,10 @@ public:
 	fila *prox;
 
 	fila() {
-		this->x = 0;
-		this->prox=NULL.
+		x = 0;
+		prox = NULL;
 	}
+	
 	~fila() {
 		delete this;
 	}
